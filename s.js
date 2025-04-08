@@ -1,4 +1,3 @@
-const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const app = express();
@@ -211,7 +210,7 @@ app.get('/doc', (req, res) => {
              z-index: 1; 
              pointer-events: none;
         }
-        .cursor-label { position: absolute; top: -22px; left: -4px; color: white; padding: 2px 5px; border-radius: 3px; font-size: 11px; font-weight: 500; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,0.2); user-select: none; transform: translateY(0); transition: transform 0.2s ease-out, opacity 0.2s ease-out; opacity: 0; }
+        .cursor-label { position: absolute; top: -22px; left: -4px; color: white; padding: 2px 5px; border-radius: 8px; font-size: 11px; font-weight: 500; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,0.2); user-select: none; transform: translateY(0); transition: transform 0.2s ease-out, opacity 0.2s ease-out; opacity: 0; }
         .remote-cursor.visible { opacity: 1; }
         .remote-cursor.visible .cursor-label { opacity: 1; transform: translateY(-2px); }
       </style>
